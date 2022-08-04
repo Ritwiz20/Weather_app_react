@@ -12,7 +12,7 @@ function App() {
   const [weather, setWeather] = useState({});
 
   let threshold = 0;
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=f350ea89d650c5be97b7742d588f97df`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${process.env.REACT_APP_KEY}`;
   const fetchWeather = (e) => {
     e.preventDefault();
     axios.get(url).then((res) => {
