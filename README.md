@@ -1,9 +1,14 @@
 #Information
-This weather app renders data, provided by openwethermap.org.
+
+This weather app renders data, provided by openwethermap.org
+
+
 
 #Steps 
 Click on the search bar and type the name of city you want to find the weather details for.
 Press enter on your keyboard or click on the search icon to get results.
+
+
 
 #Features 
 
