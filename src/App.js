@@ -25,6 +25,7 @@ function App() {
         console.log(err);
       });
     setCity("");
+    
   };
 
   const handleClick = (e) => {
